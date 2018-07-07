@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Box71</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header class="header">
+		<div class="header__slider slider-head">
+				<div class="slider-head__item slider-head__item--current" data-index="1" style="background-image: url(img/header_bg.jpg);">
+					<div class="slider-head__content">
+						<h2 class="headline">Комплексный подход 1</h2>
+						<div class="slider-head__text">
+							Проектирование и строительство “под ключ” дома
+							вашей мечты - наша главная задача. Узнать больше
+							о нас вы можете на страницах портфолио 
+							построенных нами работ.
+						</div>
+						<a href="" class="btn btn--link btn--main">Узнать</a>
+					</div>
+				</div>
+				<div class="slider-head__item" data-index="2" style="background-image: url(img/дымоход-картинка.png);">
+					<div class="slider-head__content">
+						<h2 class="headline">Комплексный подход 2</h2>
+						<div class="slider-head__text">
+							Проектирование и строительство “под ключ” дома
+							вашей мечты - наша главная задача. Узнать больше
+							о нас вы можете на страницах портфолио 
+							построенных нами работ.
+						</div>
+						<a href="" class="btn btn--link btn--main">Узнать</a>
+					</div>
+				</div>
+				<div class="slider-head__item" data-index="3" style="background-image: url(img/крыши.png);">
+					<div class="slider-head__content">
+						<h2 class="headline">Комплексный подход 3</h2>
+						<div class="slider-head__text">
+							Проектирование и строительство “под ключ” дома
+							вашей мечты - наша главная задача. Узнать больше
+							о нас вы можете на страницах портфолио 
+							построенных нами работ.
+						</div>
+						<a href="" class="btn btn--link btn--main">Узнать</a>
+					</div>
+				</div>	
+				<button class="slider-head__arrow slider-head__arrow--prev">
+					<span class="visually-hidden">Предыдущий слайд</span>
+					<span class="slider-head__index-prev btn btn--slider">01</span>
+				</button>
+				<button class="slider-head__arrow slider-head__arrow--next">
+					<span class="visually-hidden">Следующий слайд</span>
+					<span class="slider-head__index-next btn btn--slider">02</span>
+				</button>
+		</div>
+		<div class="header__nav nav">
+			<div class="nav__inner">
+				<a href="#" class="header__logo logo">
+					<img class="logo__image" src="img/logo.png" width="56" height="100" alt="">	
+					<div class="logo__text">
+						<h1 class="logo__headline">Box71</h1>
+						<p class="logo__descr">Строительство экологичных домов под "ключ" </p>
+					</div>
+				</a>
+				<nav class="header__menu menu">
+					<button class="menu__phone-trigger" aria-label="Раскрыть меню"></button>
+					<ul class="menu__list">
+						<li><a class="current-item" href="#">Главная</a></li>
+						<li><a href="#">Проекты</a></li>
+						<li><a href="#">Стройка</a></li>
+						<li><a href="#">Из чего строим</a></li>
+						<li><a href="#">Готовые проекты</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+				<form action="#" class="header__search search">
+					<div class="search__inner">
+						<input class="search__input" type="text" placeholder="Поиск по сайту">		
+						<button class="search__find" aria-label="Искать на сайте"></button>
+						<button class="search__close search__close--desktop" aria-label="Скрыть форму поиска"></button>		
+					</div>
+				</form>
+				<div class="callback">
+					<div class="callback__inner">
+						<address class="callback__phone">8 (987) 654-32-10</address>
+						<button class="callback__btn btn btn--main btn--callback">Обратный звонок</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main__inner">
+			<section class="projects">
+				<div class="projects__content content content--min">
+						<span class="content__text-overlay">
+							<span class="lighten-text lighten-text--headline">Все</span>  работы
+						</span>
+						<p class="content__descr">Успех</p>
+						<h2 class="content__headline headline"><span class="lighten-text lighten-text--headline">Все</span> работы</h2>
+						<div class="content__text">
+							Наша компания это дружный и креативный коллектив, мы стремимся строить ипроектировать лучшие дома и коттеджи в Москве и области, вкладывая 100% своих возможностей в общее дело. Мы специализируемся на строите
+						</div>
+				</div>
+				<div class="projects__filter">
+					<button class="btn btn--filter projects__option">1 этаж</button>
+					<button class="btn btn--filter projects__option">2 этажа</button>
+					<button class="btn btn--filter projects__option">С басейном</button>
+					<button class="btn btn--filter projects__option">С гаражом</button>
+				</div>
+				<ul class="projects__list projects__list--top">
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item red">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item red">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item red">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item red">
+						<img  class="projects__item-bg" data-lazy="img/project-example-2.png" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="projects__list">
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item red">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+					<li class="projects__item">
+						<img  class="projects__item-bg" data-lazy="img/house-example.jpg" alt="">
+						<div class="projects__overlay">
+								<p class="projects__tags">3 комнаты 2 сан узла<br> бассейн, гараж </p>
+								<p class="projects__name">Нортон</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section class="build build-portfolio">
+				<div class="build__left-part">
+					<div class="build__content content content--min">
+						<p class="content__descr">Успех</p>
+						<h2 class="content__headline headline"><span class="lighten-text lighten-text--headline">Из чего</span> мы строим</h2>
+						<div class="content__text">
+							Мы  специализируемся на строительстве и проектировании жилых и общественных зданий, используя передовые технологии и современные материалы. В данном разделе вы можете ознакомиться с теми материалами которые мы используем в строительстве.
+						</div>
+					</div>	
+					<!-- При выводе постов каждому посту задается id из произвольного поля и присваивается в data-id
+					Затем это же проделывается с show-tab, только уже с обычными id -->
+					<ul class="tabs">
+						<li class="tabs__item" data-id="wall">
+							<div class="tabs__content">
+								<div class="tabs__icon">
+									<img class="tabs__img" src="img/wall.png" alt="">
+									<img class="tabs__img tabs__img--hover" src="img/wall_hover.png" alt="">
+								</div>
+								<p class="tabs__name">Стены</p>
+							</div>
+						</li>
+						<li class="tabs__item" data-id="foundation">
+							<div class="tabs__content">
+								<div class="tabs__icon">
+									<img class="tabs__img" src="img/foundation.png" alt="">
+									<img class="tabs__img tabs__img--hover" src="img/foundation_hover.png" alt="">
+								</div>
+								<p class="tabs__name">Фундамент</p>
+							</div>
+						</li>
+						<li class="tabs__item" data-id="windows">
+							<div class="tabs__content">
+								<div class="tabs__icon">
+									<img class="tabs__img" src="img/window.png" alt="">
+									<img class="tabs__img tabs__img--hover" src="img/window_hover.png" alt="">
+								</div>
+								<p class="tabs__name">Окна</p>
+							</div>
+						</li>
+						<li class="tabs__item" data-id="tunnel">
+							<div class="tabs__content">
+								<div class="tabs__icon">
+									<img class="tabs__img" src="img/tunnel.png" alt="">
+									<img class="tabs__img tabs__img--hover" src="img/tunnel_hover.png" alt="">
+								</div>
+								<p class="tabs__name">Дымоходы</p>
+							</div>
+						</li>
+						<li class="tabs__item" data-id="overlay">
+							<div class="tabs__content">
+								<div class="tabs__icon">
+									<img class="tabs__img" src="img/overlay.png" alt="">
+									<img class="tabs__img tabs__img--hover" src="img/overlay_hover.png" alt="">
+								</div>
+								<p class="tabs__name">Перекрытия</p>
+							</div>
+						</li>
+						<li class="tabs__item" data-id="roof">
+							<div class="tabs__content">
+								<div class="tabs__icon">
+									<img class="tabs__img" src="img/roof.png" alt="">
+									<img class="tabs__img tabs__img--hover" src="img/roof_hover.png" alt="">
+								</div>
+								<p class="tabs__name">Крыши</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="build__right-part">
+					<div class="build__show-tab show-tab show-tab--active" data-id="wall">
+						<div class="show-tab__content">
+							<h3 class="show-tab__headline"><span class="lighten-text">Возведение</span> крыши</h3>
+							<div class="show-tab__intro">
+								Зачастую строителям приходится находить решение 
+								массы совершенно разных задач в процессе возведения дома, а это требует высококвалифицированного подхода. 
+								Одной из таких сложностей является обустройство 
+							</div>
+							<a href="#" class="show-tab__more">Подробнее</a>
+							<span class="show-tab__name">Кровля</span>
+						</div>
+					</div>
+					<div class="build__show-tab show-tab" data-id="foundation">
+						<div class="show-tab__content">
+							<h3 class="show-tab__headline"><span class="lighten-text">Возведение</span> крыши 1</h3>
+							<div class="show-tab__intro">
+								Зачастую строителям приходится находить решение 
+								массы совершенно разных задач в процессе возведения дома, а это требует высококвалифицированного подхода. 
+								Одной из таких сложностей является обустройство 
+							</div>
+							<a href="#" class="show-tab__more">Подробнее</a>
+							<span class="show-tab__name">Кровля</span>
+						</div>
+					</div>
+					<div class="build__show-tab show-tab" data-id="windows">
+						<div class="show-tab__content">
+							<h3 class="show-tab__headline"><span class="lighten-text">Возведение</span> крыши 2</h3>
+							<div class="show-tab__intro">
+								Зачастую строителям приходится находить решение 
+								массы совершенно разных задач в процессе возведения дома, а это требует высококвалифицированного подхода. 
+								Одной из таких сложностей является обустройство 
+							</div>
+							<a href="#" class="show-tab__more">Подробнее</a>
+							<span class="show-tab__name">Кровля</span>
+						</div>
+					</div>
+					<div class="build__show-tab show-tab" data-id="tunnel">
+						<div class="show-tab__content">
+							<h3 class="show-tab__headline"><span class="lighten-text">Возведение</span> крыши 3</h3>
+							<div class="show-tab__intro">
+								Зачастую строителям приходится находить решение 
+								массы совершенно разных задач в процессе возведения дома, а это требует высококвалифицированного подхода. 
+								Одной из таких сложностей является обустройство 
+							</div>
+							<a href="#" class="show-tab__more">Подробнее</a>
+							<span class="show-tab__name">Кровля</span>
+						</div>
+					</div>
+					<div class="build__show-tab show-tab" data-id="overlay">
+						<div class="show-tab__content">
+							<h3 class="show-tab__headline"><span class="lighten-text">Возведение</span> крыши 4</h3>
+							<div class="show-tab__intro">
+								Зачастую строителям приходится находить решение 
+								массы совершенно разных задач в процессе возведения дома, а это требует высококвалифицированного подхода. 
+								Одной из таких сложностей является обустройство 
+							</div>
+							<a href="#" class="show-tab__more">Подробнее</a>
+							<span class="show-tab__name">Кровля</span>
+						</div>
+					</div>
+					<div class="build__show-tab show-tab" data-id="roof">
+						<div class="show-tab__content">
+							<h3 class="show-tab__headline"><span class="lighten-text">Возведение</span> крыши</h3>
+							<div class="show-tab__intro">
+								Зачастую строителям приходится находить решение 
+								массы совершенно разных задач в процессе возведения дома, а это требует высококвалифицированного подхода. 
+								Одной из таких сложностей является обустройство 
+							</div>
+							<a href="#" class="show-tab__more">Подробнее</a>
+							<span class="show-tab__name">Кровля</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+		<footer class="footer">
+		<h2 class="visually-hidden">Футер сайта</h2>
+		<div class="footer__top nav">
+			<h3 class="visually-hidden">Навигация по сайту</h3>
+			<div class="nav__inner">
+					<a href="#" class="logo">
+						<img class="logo__image" src="img/logo.png" width="56" height="100" alt="">	
+						<div class="logo__text">
+							<h1 class="logo__headline">Box71</h1>
+							<p class="logo__descr">Строительство экологичных домов под "ключ" </p>
+						</div>
+					</a>
+					<nav class="footer__menu menu">
+						<button class="menu__phone-trigger" aria-label="Раскрыть меню"></button>
+						<ul class="menu__list">
+							<li><a class="current-item" href="#">Главная</a></li>
+							<li><a href="#">Проекты</a></li>
+							<li><a href="#">Стройка</a></li>
+							<li><a href="#">Из чего строим</a></li>
+							<li><a href="#">Готовые проекты</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<form action="#" class="footer__search search">
+						<div class="search__inner">
+							<input class="search__input" type="text" placeholder="Поиск по сайту">		
+							<button class="search__find" aria-label="Искать на сайте"></button>
+							<button class="search__close search__close--desktop" aria-label="Скрыть форму поиска"></button>		
+						</div>
+					</form>
+					<div class="callback">
+						<div class="callback__inner">
+							<address class="callback__phone">8 (987) 654-32-10</address>
+							<button class="callback__btn btn btn--main btn--callback">Обратный звонок</button>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__social social social--max">
+				<h3 class="footer__headline">Мы в соц сетях</h3>
+				<ul class="social__items">
+					<li class="social__item">
+						<a href="#" class="social__link" aria-label="Instagram">
+							<img src="img/inst.png" alt="">
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link" aria-label="Facebook">
+							<img src="img/fb.png" alt="">
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link" aria-label="YouTube">
+							<img src="img/youtube.png" alt="">
+						</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="footer__social social social--min">
+				<h3 class="footer__headline">Месенджеры</h3>
+				<ul class="social__items">
+					<li class="social__item">
+						<a href="#" class="social__link" aria-label="Telegram">
+							<img src="img/tg.png" alt="">
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link" aria-label="Whatsup">
+							<img src="img/whats-app.png" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__politics politics">
+				<div class="politics__text">
+					Сайт«BOX71.RU» использует файлы «cookie» с целью персонализации сервисов и повышения удобства пользования веб-сайтом. «Cookie» представляют собой небольшие файлы, содержащие информацию о предыдущих посещениях веб-сайта. Если вы не хотите использовать файлы «cookie», 
+					измените настройки браузера.
+				</div>
+				<h3 class="footer__headline"><a class="politics__link" href="#"> Политика конфеденциальности</a></h3>
+			</div>
+			<div class="footer__contacts">
+				<a href="#" class="footer__faq">Задать воспрос</a>
+				<address class="footer__contacts-info">Москва, ул.Джузеппе арибальди, д. 113</address>
+				<address class="footer__contacts-info">Пн - Пт  9:00 - 18:00, Сб 10:00 - 17:00, Вс выходной</address>
+				<address class="footer__contacts-info">E-mail info@box71.ru</address>
+			</div>
+		</div>
+	</footer>
+	<div class="modal">
+		<div class="modal__overlay"></div>
+		<div class="modal__content modal__content--callback">
+			<form action="#" class="form">
+				<div class="content">
+					<p class="content__descr">Контакты</p>
+					<h2 class="content__headline headline"><span class="lighten-text lighten-text--headline">Связаться</span> с нами</h2>
+					<div class="content__text">
+						Оставьте свои данные!
+					</div>
+				</div>
+				<label class="form__field form__field--name">
+					<input class="field" type="text" placeholder="Имя*">
+				</label>
+				<label class="form__field form__field--phone">
+					<input class="field" type="text" placeholder="Телефон*">
+				</label>
+				<!-- Captcha от google -->
+				<img class="form__captcha captcha" src="img/captcha.png" alt="Captcha">
+				
+				<input class="form__btn btn btn--main btn--callback" type="submit" value="Обратный звонок">
+			</form>
+			<button class="modal__close" aria-label="Закрыть окно"></button>
+		</div>
+		<div class="modal__content modal__content--order">
+			<form action="#" class="form form--order">
+				<div class="content">
+					<p class="content__descr">Заказать</p>
+					<h2 class="content__headline headline"><span class="lighten-text lighten-text--headline">Заказать</span> проект</h2>
+					<div class="content__text">
+						Оставьте свои данные!
+					</div>
+				</div>
+				<label class="form__field form__field--name">
+					<input class="field" type="text" placeholder="Имя*">
+				</label>
+				<label class="form__field form__field--phone">
+					<input class="field" type="text" placeholder="Телефон*">
+				</label>
+				<input type="hidden" name="project_id">
+				<!-- Captcha от google -->
+				<img class="form__captcha captcha" src="img/captcha.png" alt="Captcha">
+				
+				<input class="form__btn btn btn--main btn--order" type="submit" value="Заказать">
+			</form>
+			<button class="modal__close modal__close--order" aria-label="Закрыть окно"></button>		
+		</div>
+		<div class="modal__content modal__content--project project">
+			<div class="project__preview">
+				<div class="project__main-pict">
+						<img src="img/project-example.png" alt="">
+						<img src="img/project-example-1.png" alt="">
+						<img src="img/project-example-2.png" alt="">
+						<img src="img/project-example-3.png" alt="">
+						<img src="img/project-example-4.png" alt="">
+						<img src="img/project-example-5.png" alt="">
+				</div>
+				<div class="project__content content">
+					<span class="content__text-overlay project__text-overlay">
+						<span class="lighten-text lighten-text--headline">Портфолио</span>
+					</span>
+					<h2 class="content__headline headline"><span class="lighten-text lighten-text--headline">МАКБЕТ  2</span>  ПРОЕКТ ДОМА</h2>
+					<div class="content__text">
+						<p>Наша компания это дружный и креативный коллектив, мы стремимся строить ипроектировать лучшие дома и коттеджи в Москве и области, вкладывая 100% своих возможностей в общее дело. Мы специализируемся на строите</p>
+					
+						<p>Проект “Макбет 2ф” — это небольшой и уютный двухэтажный каменный дом для семьи, выполненный в классическом английском стиле. Достаточное количество окон позволяет наполнить дом солнечным светом. Крыша выполнена в классическом стиле, а для комфорта во время плохой погоды жильцов защитят достаточно большие навесы перед двумя входами. Небольшие, но уютные террасы (16 метров спереди и 10 сзади) позволят насладиться трапезой или отдыхом в теплое время года.</p>
+					</div>
+				</div>
+				<div class="project__pict-slider">
+					<div class="project__pict-slider-img">
+						<img src="img/project-example.png" alt="">
+					</div>
+					<div class="project__pict-slider-img">
+						<img src="img/project-example-1.png" alt="">
+					</div>
+					<div class="project__pict-slider-img">
+						<img src="img/project-example-2.png" alt="">
+					</div>
+					<div class="project__pict-slider-img">
+						<img src="img/project-example-3.png" alt="">
+					</div>
+					<div class="project__pict-slider-img">
+						<img src="img/project-example-4.png" alt="">
+					</div>
+					<div  class="project__pict-slider-img">
+						<img src="img/project-example-5.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="project__descr">
+				<h3 class="project__descr-headline headline"><span class="lighten-text">Технические</span> характеристики</h3>
+				<table class="project__parameters">
+					<tr class="project__param">
+						<td class="project__param-name">Общая площадь дома </td>
+						<td class="project__param-value">169 м2</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Площадь отапливаемых помещений </td>
+						<td class="project__param-value">161 м2</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Площади крылец и террас </td>
+						<td class="project__param-value">26,6 м2</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Габаритные размеры  </td>
+						<td class="project__param-value">11,7 Х 11 м</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Тип</td>
+						<td class="project__param-value"> Газобетон, кирпич, керамика</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Стиль</td>
+						<td class="project__param-value">Английская классика</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Количество полных этажей</td>
+						<td class="project__param-value">2</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Количество спален</td>
+						<td class="project__param-value">4</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Количество санузлов </td>
+						<td class="project__param-value">2</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Высота первого этажа</td>
+						<td class="project__param-value">3.0 м</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Высота второго этажа </td>
+						<td class="project__param-value"> 2.7 м</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Тип фундамента</td>
+						<td class="project__param-value">Монолитная плита фундамента</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Материал стен </td>
+						<td class="project__param-value">Газобетонные блоки</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Тип межэтажных перекрытий</td>
+						<td class="project__param-value">Монолитная железобетонная плита</td>
+					</tr>
+					<tr class="project__param">
+						<td class="project__param-name">Тип кровельного покрытия </td>
+						<td class="project__param-value">Гибкая битумная черепица</td>
+					</tr>
+				</table>
+				<button class="project__btn btn btn--main btn--order">Заказать проект</button>
+			</div>
+			<button class="modal__close" aria-label="Закрыть окно"></button>
+		</div>
+		<div class="modal__search">
+			<form action="" class="mobile-search">
+				<input class="mobile-search__field" type="text" placeholder="Поиск по сайту">
+				<input class="mobile-search__btn btn btn--main" type="submit" value="Искать">
+				<button class="search__close search__close--mobile mobile-search__btn-close"></button>
+			</form>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/header-slider.js"></script>
+	<script src="js/menu.js"></script>
+</body>
+</html>
